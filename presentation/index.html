@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Reveal Presentation</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/league.css"> <!-- NON-DEFAULT THEME -->
+
+</head>
+
+<body>
+
+<div class="reveal">
+<div class="slides">
+
+<!-- SLIDE 1 -->
+<section data-markdown>
+<textarea data-template>
+# My Presentation  
+### Your Name
+</textarea>
+</section>
+
+<!-- SLIDE 2 -->
+<section data-markdown>
+<textarea data-template>
+## Introduction  
+This presentation explains my topic.
+</textarea>
+</section>
+
+<!-- VERTICAL SLIDES -->
+<section>
+
+<section data-markdown>
+<textarea data-template>
+## Topic Part 1  
+- Point A  
+- Point B  
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+## Topic Part 2  
+More explanation here.
+</textarea>
+</section>
+
+</section>
+
+<!-- IMAGE SLIDE -->
+<section data-markdown>
+<textarea data-template>
+## Example Image  
+
+![Sample Image](https://via.placeholder.com/500)
+</textarea>
+</section>
+
+<!-- FINAL SLIDE -->
+<section data-markdown>
+<textarea data-template>
+## Conclusion  
+- Summary  
+- Key takeaway  
+
+Thank you!
+</textarea>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+
+<script>
+Reveal.initialize({
+  hash: true,
+  plugins: [ RevealMarkdown ]
+});
+</script>
+
+</body>
+</html>
